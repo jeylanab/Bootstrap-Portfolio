@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap-Portfolio</title>
     
+    <link rel="stylesheet" href="/simple-line-icons/css/simple-line-icons.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="Home">
   <!-- navigation section -->
   <nav class="navbar navbar-expand-lg fixed-top nav-section bg-warning " id="mainNav">
     <div class="container-fluid nav-section ">
@@ -22,13 +24,13 @@
       <div class="collapse navbar-collapse " id="navbarResponsive">
         <ul class="navbar-nav ml-auto m-6">
           <li class="nav-item">
-            <a class="nav-link" href="#download">Home</a>
+            <a class="nav-link" href="#Home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Work">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Skill</a>
+            <a class="nav-link" href="#skill">Skill</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -58,26 +60,36 @@
 
   <!-- work section -->
   <section class="work" id="Work">
-    <div class="container text-center">
+    <div class=" bg-black p-5">
+       <h3 class="text-center text-warning ">PROJECTS I CREATED SO FAR</h3> 
+       <i class='fa fa-rocket' style='color: #f3da35'>
+    </div>
+    <div class="container text-center p-3">
   <!-- row 1 -->
       <div class="row m-5">
         <div class="col-sm-12 col-md-6 col-lg-6">
           <!-- card-1 -->
-          <div class="card m-2" >
+          <div class="card m-5" >
+            <a href="https://jeylanab.github.io/Personal-Portfolio-Website/">
             <img src="/images/personal-portfolio.png" class="card-img-top img-fluid" alt="...">
+
+            </a> 
             <div class="card-body bg-warning">
               <h3>Personal-Portfolio</h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"> My personal website includes all my information and ways to contact me. all the links of social media that i am using are mentioned here. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
           <!-- card-2 -->
-          <div class="card m-2">
+          <div class="card m-5">
+            <a href="https://jeylanab.github.io/Horiseon-Social-Solution-project/">
             <img src="/images/01-html-css-git-challenge-demo.png" class="card-img-top img-fluid" alt="...">
+
+            </a>
             <div class="card-body bg-warning">
               <h3>Horiseon-Social-Solution</h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">This project mainly focuses on enhancing the existing website to improve its search engine capability. Web accessibility is an important point to keep in mind for businesses. It ensures that people can access a website with different search engines easily</p>
             </div>
           </div>
         </div>
@@ -86,7 +98,7 @@
       <div class="row m-5">
         <div class="col-sm-12 col-md-6 col-lg-6">
           <!-- card-3 -->
-          <div class="card m-3 ">
+          <div class="card m-5 ">
             <img src="/images/coming-soon-2.jpg" class="card-img-top img-fluid " alt="...">
             <div class="card-body bg-warning">
               <h3>Coming Soon</h3>
@@ -96,7 +108,7 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 ">
           <!-- card-4 -->
-          <div class="card m-3">
+          <div class="card m-5">
             <img src="/images/coming-soon-1.jpg" class="card-img-top img-fluid " alt="...">
             <div class="card-body bg-warning">
               <h3>Coming Soon</h3>
@@ -106,7 +118,153 @@
         </div>
       </div>
     </div>
-  </section>   
+  </section> 
+  <!-- skill section -->
+  <section class="skill" id="skill">
+     <div class="">
+        <h3 class="bg-black p-5 text-center skill">Skills</h3>
+    </div>
+
+    <div class="container text-center">
+      <!-- row -1  -->
+      <div class="row m-5 ">
+
+        <!-- col-1 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card m-5" style="width: 18rem;">
+            <div class="card-body bg-success">
+              <h4 class="card-text text-warning">HTML5</h4>
+            </div>
+            <img src="/images/html.png" class="card-img-bottom p-5 img-stretch" alt="...">
+          </div>
+        </div>
+
+        <!-- col-2 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card m-5" style="width: 18rem; ">
+            <div class="card-body bg-success">
+              <h4 class="card-text text-warning">CSS3</h4>
+            </div>
+            <img src="/images/css.png" class="card-img-bottom p-5 img-fluid" alt="...">
+          </div>
+        </div>
+
+        <!-- col-3 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card m-5" style="width: 18rem;">
+            <div class="card-body bg-success">
+              <h4 class="card-text text-warning">JavaScript</h4>
+            </div>
+            <img src="/images/jSC.jpeg" class="card-img-bottom p-5 img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <!-- row -2 -->
+      <div class="row m-5">
+
+        <!-- col-1 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card m-5" style="width: 18rem;">
+            <div class="card-body bg-success">
+              <h4 class="card-text text-warning">React</h4>
+            </div>
+            <img src="/images/REACT.png" class="card-img-bottom p-5 img-fluid" alt="...">
+          </div>
+        </div>
+
+        <!-- col-2 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card m-5" style="width: 18rem;">
+            <div class="card-body bg-success">
+              <h4 class="card-text text-warning">Node.Js</h4>
+            </div>
+            <img src="/images/ACCL-NodeJS.png" class="card-img-bottom p-5 img-fluid" alt="...">
+          </div>
+        </div>
+
+        <!-- col-3 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card m-5" style="width: 18rem;">
+            <div class="card-body bg-success">
+              <h4 class="card-text text-warning">JQuery</h4>
+            </div>
+            <img src="/images/jquery_original_wordmark_logo_icon_146447.png" class="card-img-bottom p-5 img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <!-- row- 3 -->
+      <div class="row m-5">
+
+        <!-- col-1 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card m-5" style="width: 18rem;">
+            <div class="card-body bg-success">
+              <h4 class="card-text text-warning">React</h4>
+            </div>
+            <img src="/images/REACT.png" class="card-img-bottom p-5 img-fluid" alt="...">
+          </div>
+        </div>
+
+        <!-- col-2 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card m-5" style="width: 18rem;">
+            <div class="card-body bg-success">
+              <h4 class="card-text text-warning">Node.Js</h4>
+            </div>
+            <img src="/images/ACCL-NodeJS.png" class="card-img-bottom p-5 img-fluid" alt="...">
+          </div>
+        </div>
+
+        <!-- col-3 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card m-5" style="width: 18rem;">
+            <div class="card-body bg-success">
+              <h4 class="card-text text-warning">JQuery</h4>
+            </div>
+            <img src="/images/jquery_original_wordmark_logo_icon_146447.png" class="card-img-bottom p-5 img-fluid" alt="...">
+          </div>
+        </div>
+       
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact section --> 
+  <section class="contact" id="contact">
+    <div class="contact-me bg-secondary">
+        <h4 class="text-center p-5">Contact Me On:</h4>
+    </div>
+    <div class="container text-center">
+      <!-- row-1 -->
+      <div class="row m-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <a href=" https://github.com/jeylanab/" target="_blank">  <img src="/images/github_PNG84.png" alt="github"> <p class="social-network">Github</p></a>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+         <a href="https://linkedin.com/in/jeylan-tesi-53a746257" target="_blank"> <img src="/images/linkedin-icon-logo-png-transparent.png" alt="linkedin"> <p class="social-network">Linkedin</p></a>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+         <a href="https://joephoenix755@gmail.com "> <img src="/images/email.png" alt="email"> <p class="social-network">Email</p></a>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <a href="https://t.me/jetu81"> <img src="/images/tele.png" alt="telegram"> <p class="social-network">Telegram</p></a>
+        </div>
+
+      </div>
+     
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <footer class="footer">
+     <p class="text-center p-5 bg-success">@2023 December 18</p>
+  </footer>
+
+  
   
   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

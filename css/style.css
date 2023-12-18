@@ -1,4 +1,4 @@
-/* css code for nav section */
+/*nav section */
 .logo-bar {
  letter-spacing: 1px;
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -11,6 +11,9 @@
 .nav-link:hover{
  color: rgb(0, 0, 0);
 }
+
+/* hero section */
+
 .profile-pic {
     border-radius:300px ;
 }
@@ -21,5 +24,43 @@
     background-color: rgb(37, 37, 41);
 
 }
+/* work section */
+
+.work-title {
+    font-weight: 600;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* skill section */
+
+.skill-list >ul >li {
+    text-align: center;
+    list-style-type: none;
+    color: black;
+    font-size: larger;
+    
+}
+/* contact me section */
+
+.contact-me {
+    back
+}
+
+a img {
+    height: 50px;
+    text-decoration: none;
+    transition: ease;
+}
+a img:hover {
+    border-radius: 30px;
+    background-color: navy;
+    transition-duration: 0.4s;
+}
+.social-network {
+    text-decoration: none;
+    color: black;
+    text-decoration-line: none;
+}
+
+
 
 
