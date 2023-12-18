@@ -9,5 +9,17 @@
     font-size: larger;
 }
 .nav-link:hover{
- color: greenyellow;
+ color: rgb(0, 0, 0);
 }
+.profile-pic {
+    border-radius:300px ;
+}
+.description  {
+    text-align: center;
+}
+.head-1 {
+    background-color: rgb(37, 37, 41);
+
+}
+
+
