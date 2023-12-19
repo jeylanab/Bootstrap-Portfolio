@@ -57,8 +57,8 @@ a img {
 }
 a img:hover {
     border-radius: 30px;
-    background-color: navy;
-    transition-duration: 0.4s;
+    background-color: chocolate;
+    transition-duration: 0.7s;
 }
 .social-network {
     text-decoration: none;
