@@ -30,6 +30,7 @@
     font-weight: 600;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 /* skill section */
 
 .skill-list >ul >li {
@@ -38,6 +39,13 @@
     color: black;
     font-size: larger;
     
+}
+.skill-text {
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
 }
 /* contact me section */
 
