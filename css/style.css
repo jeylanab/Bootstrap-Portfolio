@@ -43,15 +43,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
   
-}
 /* contact me section */
-
-.contact-me {
-    back
-}
 
 a img {
     height: 50px;
+
     text-decoration: none;
     transition: ease;
 }
@@ -67,7 +63,6 @@ a img:hover {
 }
 .bg-radius {
     font-size: 45px;
-    border-radius: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .card-img-bottom {
