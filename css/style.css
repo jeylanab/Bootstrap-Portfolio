@@ -20,10 +20,7 @@
 .description  {
     text-align: center;
 }
-.head-1 {
-    background-color: rgb(37, 37, 41);
 
-}
 /* work section */
 
 .work-title {
@@ -68,7 +65,18 @@ a img:hover {
     color: black;
     text-decoration-line: none;
 }
+.bg-radius {
+    font-size: 45px;
+    border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+  }
 
+  .card:hover {
+    transform: scale(1.1);
+  }
 
 
 
